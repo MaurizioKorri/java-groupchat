@@ -27,7 +27,7 @@ public class Server {
 
     }
 
-    public void closeServerSocket(){
+    public void  closeServerSocket(){
         try{
             if(this.serverSocket != null){
                 serverSocket.close();
